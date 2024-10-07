@@ -1,0 +1,26 @@
+@import './breakpoints';
+
+/* Example: @include responsive($breakpoint-mobile) { * your styles here * } */
+@mixin responsive($media) {
+  @if $media == $breakpoint-desktop {
+    @media only screen and (max-width: $breakpoint-desktop) {
+      @content;
+    }
+  } @else if $media == $breakpoint-tablet {
+    @media only screen and (max-width: $breakpoint-tablet) {
+      @content;
+    }
+  } @else if $media == $breakpoint-mobile {
+    @media only screen and (max-width: $breakpoint-mobile) {
+      @content;
+    }
+  } @else if $media == $breakpoint-small-mobile {
+    @media only screen and (max-width: $breakpoint-small-mobile) {
+      @content;
+    }
+  } @else if $media == $breakpoint-large-desktop {
+    @media only screen and (min-width: $breakpoint-large-desktop) {
+      @content;
+    }
+  }
+}

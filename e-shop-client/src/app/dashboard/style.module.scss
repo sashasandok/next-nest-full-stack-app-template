@@ -1,0 +1,8 @@
+@import '@/styles/constants.scss';
+@import '@/styles/mixins';
+
+.dashboard-page {
+  flex: 1 0 auto;
+  display: flex;
+  min-height: calc(100vh - $header-height);
+}

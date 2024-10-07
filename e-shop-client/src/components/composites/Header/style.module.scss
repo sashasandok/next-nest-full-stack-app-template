@@ -1,0 +1,26 @@
+@import '../../../styles/constants.scss';
+@import '../../../styles/colors.module.scss';
+
+.header {
+  height: $header-height;
+  padding: 35px;
+  background-color: $color_slate;
+  color: $white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+
+  &-nav {
+    display: flex;
+
+    &-item {
+      margin-right: 15px;
+
+      &-link {
+        color: rgb(61, 61, 61);
+        text-decoration: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+@import '@/styles/mixins';
+
+.registration-form {
+  width: 400px;
+  height: 350px;
+  background-color: rgb(231, 231, 231);
+  padding: 25px;
+  border-radius: 5px;
+
+  &-heading {
+    width: 100%;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  @include responsive($breakpoint-mobile) {
+    width: 80%;
+    height: 350px;
+  }
+}

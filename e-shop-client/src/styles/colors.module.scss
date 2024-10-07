@@ -1,0 +1,90 @@
+/* basic */
+$white: #ffffff;
+$black: #000000;
+$green: green;
+$dark: rgb(54, 54, 54);
+$blue: blue;
+$gray: gray;
+$red: red;
+
+/* gray */
+$light-gray: #f0f5ff;
+
+/* blue */
+$light-blue: #e6f7ff;
+$dark-blue: #2c5cc5;
+
+/* green */
+$light-green: #b7eb8f;
+
+/* red */
+$light-red: #ffccc7;
+$dark-red: #f5222d;
+
+/* TODO create color variable for #5a7491 */
+
+$color_primary: #1976d2;
+$color_slate: #cccccc;
+$color_white: #ffffff;
+$color_black: #000000;
+$main_font_color: #252527;
+// button colors
+// primary button
+$primary_btn_bg: #1976d2;
+$primary_btn_box_shadow: #619ee4;
+$primary_btn_focused: #1e88e5;
+$primary_btn_border: #769ef5;
+// secondary button
+$secondary_btn_bg: #c71f37;
+$secondary_btn_box_shadow: #db7581;
+$secondary_btn_focused: #e01e37;
+$secondary_btn_border: #d85665;
+// disabled button
+$disabled_btn_bg: #cbd5e1;
+$disabled_btn_border: #94a3b8;
+// links
+$link_color: #1976d2;
+// backdrop
+$backdrop_color: #0000001c;
+// spinner
+$main_dark_spinner_border: #1976d2;
+$secondary_dark_spinner_border: #ffffff;
+$main_light_spinner_border: #ffffff;
+$secondary_light_spinner_border: #1976d2;
+// checkbox
+$checkbox_border: #cecece;
+$checkbox_selected: #1e88e5;
+
+:export {
+  color_primary: $color_primary;
+  color_slate: $color_slate;
+  color_white: $color_white;
+  color_black: $color_black;
+  main_font_color: $main_font_color;
+  // button colors
+  // primary button
+  primary_btn_bg: $primary_btn_bg;
+  primary_btn_box_shadow: $primary_btn_box_shadow;
+  primary_btn_focused: $primary_btn_focused;
+  primary_btn_border: $primary_btn_border;
+  // secondary button
+  secondary_btn_bg: $secondary_btn_bg;
+  secondary_btn_box_shadow: $secondary_btn_box_shadow;
+  secondary_btn_focused: $secondary_btn_focused;
+  secondary_btn_border: $secondary_btn_border;
+  // disabled button
+  disabled_btn_bg: $disabled_btn_bg;
+  disabled_btn_border: $disabled_btn_border;
+  // links
+  link_color: $link_color;
+  // backdrop
+  backdrop_color: $backdrop_color;
+  // spinner
+  main_dark_spinner_border: $main_dark_spinner_border;
+  secondary_dark_spinner_border: $secondary_dark_spinner_border;
+  main_light_spinner_border: $main_light_spinner_border;
+  secondary_light_spinner_border: $secondary_light_spinner_border;
+  // checkbox
+  checkbox_border: $checkbox_border;
+  checkbox_selected: $checkbox_selected;
+}
